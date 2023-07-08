@@ -7,7 +7,7 @@ import { Card3 } from '../Card3/Card3';
 
 const Features = () => {
     return(
-        <Box bg={"darkcyan"} w={"75%"} m={"0 auto"} pt={"5rem"}>
+        <Box bg={"darkcyan"} w={"75%"} m={"0 auto"} pt={"5rem"} pb={"2rem"}>
             <Box mb={"3rem"}>
                 <Titulo2/>
             </Box>

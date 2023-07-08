@@ -7,11 +7,11 @@ import { Pagina3 } from '../Pagina3/Pagina3';
 
 const Portafolio = () => {
     return(
-        <Box bg={"darkgoldenrod"} w={"75%"} m={"0 auto"} pt={"5rem"}>
-            <Box>
+        <Box bg={"darkgoldenrod"} w={"75%"} m={"0 auto"} pt={"5rem"} pb={"2rem"}>
+            <Box >
                 <Titulo3/>
             </Box>
-            <Box>
+            <Box display={"flex"}>
                 <Pagina1/>
                 <Pagina2/>
                 <Pagina3/>

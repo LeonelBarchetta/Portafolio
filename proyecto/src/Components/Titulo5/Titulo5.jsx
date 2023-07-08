@@ -1,13 +1,13 @@
 import { Box, Heading, Text } from '@chakra-ui/react';
 import React from 'react';
 
-const Titulo3 = () => {
+const Titulo5 = () => {
     return(
         <Box textAlign={"center"}>
-            <Text>VISITA MI PORTAFOLIO Y DEJA TU FEEDBACK</Text>
-            <Heading>Mi Portafolio</Heading>
+            <Text>CONTACTO</Text>
+            <Heading>Contactate Conmigo</Heading>
         </Box>
     )
 }
 
-export { Titulo3 }
+export { Titulo5 }
