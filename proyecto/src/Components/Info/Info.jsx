@@ -1,25 +1,26 @@
 import { Box, Heading, Image, Text } from '@chakra-ui/react';
 import React from 'react';
 import { Findme } from '../Findme/Findme';
+import apreton from "/apreton.jpg"
 
 const Info = () => {
     return(
-        <Box border={"0.1rem solid black"} p={"1rem"} w={"50%"}>
-            <Image></Image>
+        <Box boxShadow={"-0.2rem -0.2rem 0.7rem #2c3136, 0.5rem 0.2rem 0.7rem #1a1d20"} borderRadius={"0.4rem"}  bgGradient="linear(to-r, #1E2125, #23272B)" p={{base:"1rem","2xl":"1.4rem"}} w={{base:"100%",lg:"50%",xl:"50%"}} pb={{base:"1rem",lg:"3rem"}} mb={{base:"1.5rem",lg:"0rem"}}>
+            <Image src={apreton} mb={"0.7rem"} borderRadius={"0.4rem"}/>
             <Box>
-                <Heading>Leonel barchetta</Heading>
-                <Text>Desarrollador Web</Text>
+                <Heading color={"#C4D0DF"} fontSize={"1.5rem"} mb={"0.7rem"}>Leonel barchetta</Heading>
+                <Text color={"gray"} fontSize={{base:"0.6rem",md:"0.6rem",lg:"0.7rem",xl:"1rem","2xl":"1.2rem"}} mb={"0.7rem"}>Desarrollador Web</Text>
             </Box>
-            <Text> 
+            <Text color={"gray"} fontSize={{base:"0.6rem",md:"0.6rem",lg:"0.7rem",xl:"1rem","2xl":"1.2rem"}} mb={"0.7rem"}> 
                 Estoy disponible como trabajador freelancer. Contacta comigo a traves de mi cuenta
             </Text>
-            <Box>
-                <Text>
-                    phone: +11 2290 8402
-                </Text>
-                <Text>
-                    Email: barchettaleonel@gmail.com
-                </Text>
+            <Box mb={"1.2rem"}>
+                <Heading color={"gray"} display={"flex"} fontSize={{base:"0.6rem",md:"0.6rem",lg:"0.7rem",xl:"1rem","2xl":"1.2rem"}} >
+                    phone: <Text color={"#C4D0DF"} ml={"0.2rem"}>+11 2290 8402</Text>
+                </Heading>
+                <Heading color={"gray"} fontSize={{base:"0.6rem",md:"0.6rem",lg:"0.7rem",xl:"1rem","2xl":"1.2rem"}} display={"flex"} >
+                    Email: <Text color={"#C4D0DF"} ml={"0.2rem"}>barchettaleonel@gmail.com</Text>
+                </Heading>
             </Box>
             
             <Findme/>

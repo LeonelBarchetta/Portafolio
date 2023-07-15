@@ -9,7 +9,7 @@ import { Contactame } from '../Contactame/Contactame';
 
 const Main = () => {
     return(
-       <Box bg={"darkgrey"}>
+       <Box bg={"#212428"}>
             <Hero/>
             <Features/>
             <Portafolio/>

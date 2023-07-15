@@ -7,11 +7,11 @@ import { Card3 } from '../Card3/Card3';
 
 const Features = () => {
     return(
-        <Box bg={"darkcyan"} w={"75%"} m={"0 auto"} pt={"5rem"} pb={"2rem"}>
+        <Box bg={"#212428"} w={"75%"} m={"0 auto"} pt={"5rem"} pb={{base:"4.5rem",md:"5rem",lg:"5rem",xl:"6rem","2xl":"8rem"}} borderBottom={"0.1rem solid black"}>
             <Box mb={"3rem"}>
                 <Titulo2/>
             </Box>
-            <Box display={"flex"}>
+            <Box display={{base:"column",md:"flex",lg:"flex",xl:"flex","2xl":"flex"}} justifyContent={"space-between"} columnGap={"2rem"}>
                 <Card1/>
                 <Card2/>
                 <Card3/>
