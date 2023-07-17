@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Heading, Image, Text } from '@chakra-ui/react';
-import burger from "/burger.svg"
+import burger from "/Img/burger.svg"
 
 const Card2 = () => {
     return(

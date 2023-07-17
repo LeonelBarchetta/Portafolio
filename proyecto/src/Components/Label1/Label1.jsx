@@ -4,6 +4,9 @@ import React from 'react';
 const Label1 = () => {
     return(
         <Box>
+
+            
+            
             <Box boxShadow={"-0.2rem -0.2rem 0.7rem #2c3136, 0.5rem 0.2rem 0.7rem #1a1d20"} borderRadius={"0.4rem"}  bgGradient="linear(to-r, #1E2125, #23272B)" p={"1.5rem"} mb={"2rem"} w={{base:"100%",md:"60%",lg:"50%","2xl":"35rem"}}>
                 <Box display={"flex"} justifyContent={"space-between"} pb={"1.5rem"} borderBottom={"0.1rem solid black"}>
                     <Box >

@@ -15,6 +15,7 @@ const Hero = () => {
     }
     return(
         <Box 
+        id='inicio'
         pt={{base:"6rem",md:"6rem",lg:"7rem",xl:"7.5rem","2xl":"14rem"}} 
         w={"75%"} m={"0 auto"} bg={"#212428"} 
         display={{base:"column",md:"flex",lg:"flex",xl:"flex","2xl":"flex"}}  

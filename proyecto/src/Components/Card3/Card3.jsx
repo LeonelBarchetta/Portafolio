@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Heading, Image, Text } from '@chakra-ui/react';
-import wifi from "/wifi.svg"
+import wifi from "/Img/wifi.svg"
 
 const Card3 = () => {
     return(

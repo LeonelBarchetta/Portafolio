@@ -1,5 +1,5 @@
 import React from 'react';
-import perfil from "/perfil.png"
+import perfil from "/Img/perfil.png"
 import { Box, Image } from '@chakra-ui/react';
 
 const Imagenperfil = () => {

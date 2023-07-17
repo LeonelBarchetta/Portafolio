@@ -1,8 +1,8 @@
 import React from 'react';
 import { Box , Image, Text } from '@chakra-ui/react';
-import html from "/html.svg"
-import css from "/css.svg"
-import js from "/js.svg"
+import html from "/Img/html.svg"
+import css from "/Img/css.svg"
+import js from "/Img/js.svg"
 
 const Bestskills = () => {
     return(

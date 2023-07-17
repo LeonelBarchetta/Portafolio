@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Heading, Image, Text } from '@chakra-ui/react';
-import captura2 from "/captura2.jpg"
-import corazon from "/corazon.svg"
+import captura2 from "/Img/captura2.jpg"
+import corazon from "/Img/corazon.svg"
 
 
 const Pagina2 = () => {

@@ -1,7 +1,7 @@
 import { Box, Heading, Image, Text } from '@chakra-ui/react';
 import React from 'react';
-import captura1 from "/captura1.jpg"
-import corazon from "/corazon.svg"
+import captura1 from "/Img/captura1.jpg"
+import corazon from "/Img/corazon.svg"
 
 const Pagina1 = () => {
     const breakpoints = {
@@ -13,6 +13,7 @@ const Pagina1 = () => {
     }
     return(
         <Box boxShadow={"-0.2rem -0.2rem 0.7rem #2c3136, 0.5rem 0.2rem 0.7rem #1a1d20"} borderRadius={"0.5rem"}  bgGradient="linear(to-r, #1E2125, #23272B)" p={{base:"1rem",md:"1rem",lg:"1rem",xl:"1rem","2xl":"1.5rem"}} _hover={{ bgGradient:"linear(to-r, #1f2225, #3d444b)" , cursor:"pointer"}}>
+            
             <Image src={captura1} borderRadius={"0.5rem"} mb={{base:"0.5rem","2xl":"1rem"}}/>
             <Box display={"flex"} mb={{base:"0.5rem","2xl":"1rem"}} justifyContent={"space-between"} alignItems={"center"}>
                 <Text color={"#DE0748"} fontSize={{base:"0.6rem",md:"0.6rem",lg:"0.7rem",xl:"1rem","2xl":"1.2rem"}} >web</Text>
