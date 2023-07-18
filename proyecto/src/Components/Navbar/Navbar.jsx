@@ -1,6 +1,6 @@
 import { Box, Button, Image, Text, Link } from '@chakra-ui/react';
 import React from 'react';
-import burger from "/burger.svg"
+import burger from "/Img/burger.svg"
 import {
     Menu,
     MenuButton,
