@@ -4,7 +4,7 @@ import { Titulo4 } from '../Titulo4/Titulo4';
 import { Decoracion } from '../Decoracion/Decoracion';
 import { Label1 } from '../Label1/Label1';
 import { Label2 } from '../Label2/Label2';
-import { Label3 } from '../Label3/Label3';
+
 
 const Resumen = () => {
     const breakpoints = {
